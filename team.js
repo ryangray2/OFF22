@@ -82,7 +82,7 @@ var ind = {
   city: "Indiana",
   name: "Pacers",
   init: "IND",
-  logo: "http://assets.stickpng.com/images/58419b8da6515b1e0ad75a52.png"
+  logo: "pacers.png"
 }
 
 var lac = {
@@ -208,7 +208,7 @@ var uta = {
   city: "Utah",
   name: "Jazz",
   init: "UTA",
-  logo: "http://assets.stickpng.com/images/58419bb6a6515b1e0ad75a55.png"
+  logo: "jazz.png"
 }
 
 var was = {
