@@ -63,6 +63,20 @@ function getPics() {
       }
     }
   }
+  for (let i = 0; i < knicksDraftTrades.length; i++) {
+    console.log("something");
+    for (let k = 0; k < knicksDraftTrades[i].receivePlayer.length; k++) {
+          console.log(knicksDraftTrades[i]);
+      let currFA = knicksDraftTrades[i].receivePlayer[k];
+      for (let j = 0; j < pics.length; j++) {
+        let faName = currFA.name.toLowerCase();
+        if (pics[j].name == faName) {
+          knicksDraftTrades[i].receivePlayer[k].img = "https://cdn.nba.com/headshots/nba/latest/1040x760/" + pics[j].id + ".png";
+          console.log(knicksDraftTrades[i].receivePlayer[k]);
+        }
+      }
+    }
+  }
 }
 
 getPics();
@@ -472,6 +486,7 @@ function tradeNav() {
   document.getElementById("tradenav").classList.add("currNav");
   document.getElementById("rosternav").classList.remove("currNav");
 
+  twoNav = 0;
   generateTrades(0);
 }
 
@@ -1063,12 +1078,7 @@ function checkTradeAssets(trade) {
 }
 
 function generateTrades(num) {
-  console.log("regular trades");
-  var root = document.getElementById("tradeNavCont");
-  console.log(num)
-  while (root.firstChild) {
-    root.removeChild(root.firstChild);
-  }
+
 
   for (let i = 0; i < user.trades.length; i++) {
     if (checkTradeAssets(user.trades[i])) {
@@ -1077,6 +1087,13 @@ function generateTrades(num) {
       user.trades.splice(i, 1);
       i -= 1;
     }
+  }
+
+  console.log("regular trades");
+  var root = document.getElementById("tradeNavCont");
+  console.log(num)
+  while (root.firstChild) {
+    root.removeChild(root.firstChild);
   }
 
   if (user.trades.length === 0) {
@@ -1438,6 +1455,23 @@ function acceptTrade(trade) {
   }
 
   console.log("trades: " + user.trades);
+
+  for (let i = 0; i < user.trades.length; i++) {
+    if (checkTradeAssets(user.trades[i])) {
+      continue;
+    } else {
+      user.trades.splice(i, 1);
+      i -= 1;
+    }
+  }
+
+  twoNav = 0;
+
+  console.log(user.trades[0]);
+  console.log(user.trades[1]);
+  console.log(user.trades[2]);
+  console.log(user.trades[3]);
+
 
   generateTrades(0);
   updateCapDisplay();

@@ -89,6 +89,7 @@ pos: 'PG',
 type: 'PO',
 age: '33.4',
 sal: 47063478,
+guaranteed: true,
 years: 0,
 odds: 0,
 wA: 2.7,
@@ -106,8 +107,59 @@ var westbrookOffer = {
   givePlayer: [juliusRandle, evanFournier]
 }
 
+var terryRozier = {
+name: 'Terry Rozier',
+pos: 'PG',
+sal: 21486316,
+guaranteed: true,
+wA: 5.2,
+img: ''
+};
 
-var knicksTrades = [mylesOffer, donovanOffer, rudyOffer, westbrookOffer];
+var rozierOffer = {
+  otherTeam: "Hornets",
+  receiveText: ["Terry Rozier"],
+  giveText: ["Nerlens Noel", "Alec Burks", "2023 Round 1 (DAL)"],
+  pickText: ["2023 Round 1 (DAL)"],
+  receiveIndex: [],
+  giveIndex: [],
+  receivePlayer: [terryRozier],
+  givePlayer: [nerlensNoel, alecBurks]
+}
+
+var stevenAdams = {
+  name: "Steven Adams",
+  pos: "C",
+  sal: 17926829,
+  option: "none",
+  guaranteed: true,
+  wA: 3.5,
+  img: ""
+};
+
+var brandonClarke = {
+  name: "Brandon Clarke",
+  pos: "PF",
+  sal: 4343920,
+  option: "none",
+  guaranteed: true,
+  wA: 5,
+  img: ""
+};
+
+var grizzliesOffer = {
+  otherTeam: "Grizzlies",
+  receiveText: ["Steven Adams", "Brandon Clarke"],
+  giveText: ["Julius Randle"],
+  pickText: [],
+  receiveIndex: [],
+  giveIndex: [],
+  receivePlayer: [stevenAdams, brandonClarke],
+  givePlayer: [juliusRandle]
+}
+
+
+var knicksTrades = [mylesOffer, donovanOffer, rudyOffer, westbrookOffer, rozierOffer, grizzliesOffer];
 
 
 
@@ -208,5 +260,26 @@ var fourOffer = {
   givePlayer: []
 }
 
+var collinSexton = {
+  name: "Collin Sexton",
+  pos: "PG",
+  sal: 20000000,
+  option: "none",
+  guaranteed: true,
+  wA: 3.5,
+  img: ""
+};
 
-var knicksDraftTrades = [sevenOffer, fiveOffer, sixOffer, fourOffer]
+var sextonOffer = {
+  otherTeam: "Cavaliers",
+  receiveText: ["Collin Sexton"],
+  giveText: ["Pick #11", "Evan Fournier"],
+  pickText: ["Pick #11"],
+  receiveIndex: [],
+  giveIndex: [10],
+  receivePlayer: [collinSexton],
+  givePlayer: [evanFournier]
+}
+
+
+var knicksDraftTrades = [sevenOffer, fiveOffer, sixOffer, fourOffer, sextonOffer]
