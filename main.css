@@ -99,6 +99,10 @@ transition: all .25s ease !important;
 
 }
 
+.blurb {
+  font-family: 'Kdam Thmor Pro';
+}
+
 .prospectRow {
   border-bottom: 1px solid rgb(355, 355, 355, .5);
 background: linear-gradient(344deg, rgb(82 69 69 / 75%) 37%, rgb(192 30 30) 100%);

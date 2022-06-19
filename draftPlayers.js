@@ -30,7 +30,8 @@ height: '6-10',
 weight: '250',
 salary: '0',
 wA: 5,
-img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4432573.png&w=350&h=254'
+img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4432573.png&w=350&h=254',
+blurb: "It’s hard to not fall in love with his game on the offensive end of the court. He’s not a traditional big man by any means. He can finish in the post when he needs to, but also handle the ball like a guard and even facilitate an offense. - Eugene Rapay"
 };
 var ChetHolmgren = {
 name: 'Chet Holmgren',
@@ -51,7 +52,8 @@ height: '6-7',
 weight: '210',
 salary: '0',
 wA: 2.8,
-img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4683634.png&w=350&h=254'
+img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4683634.png&w=350&h=254',
+blurb: "Bennedict Mathurin sounds and plays a heck of a lot like Anthony Edwards, a similarly athletic, if raw, young star whose improvement this year was hardly foreseen as being as remarkable and evident as it turned out to be. - Will Bjarnar"
 };
 var JohnnyDavis = {
 name: 'Johnny Davis',
@@ -62,7 +64,8 @@ height: '6-5',
 weight: '195',
 salary: '0',
 wA: 2.2,
-img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4432356.png&w=350&h=254'
+img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4432356.png&w=350&h=254',
+blurb: "Davis doesn’t exactly project to be a star who averages 20 points per game, but adding a shooting guard with very good offensive potential to the mix would make sense. - Nick Scolaro"
 };
 var KeeganMurray = {
 name: 'Keegan Murray',
@@ -73,7 +76,8 @@ height: '6-8',
 weight: '225',
 salary: '0',
 wA: 1.6,
-img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4594327.png&w=350&h=254'
+img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4594327.png&w=350&h=254',
+blurb: "Two-way players go a long way in the NBA, and Keegan Murray has the tools to be an effective player on both ends of the court. While he might be an older player at 21 years of age, his promise is still there, especially if he can continue to build off of his breakout year with the Hawkeyes. - Eugene Rapay"
 };
 var AjGriffin = {
 name: 'Aj Griffin',
@@ -139,7 +143,8 @@ height: '6-9',
 weight: '230',
 salary: '0',
 wA: 1,
-img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4610139.png&w=350&h=254'
+img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4610139.png&w=350&h=254',
+blurb: "Whichever team drafts Sochan will almost definitely fall in love with all of the intensity that he brings to the table. The defensive activity and effort will absolutely translate and the basketball acumen and feel for the game are an absolute plus for one of the youngest players in the draft class. - Nick Carannante"
 };
 var JalenDuren = {
 name: 'Jalen Duren',
@@ -205,7 +210,8 @@ height: '7-0',
 weight: '240',
 salary: '0',
 wA: 1.5,
-img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4701232.png&w=350&h=254'
+img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4701232.png&w=350&h=254',
+blurb: "If Williams is taken in the lottery, which is looking increasingly possible, it will be on the strength of his defense. When locked in and reading the game, he is simply a force to be reckoned with. - Mark Williams"
 };
 var JadenHardy = {
 name: 'Jaden Hardy',
@@ -220,14 +226,15 @@ img: 'https://www.nbadraft.net/wp-content/uploads/2018/04/Jaden-Hardy.png'
 };
 var DysonDaniels = {
 name: 'Dyson Daniels',
-pos: 'SG',
+pos: 'PG',
 age: '2003',
 school: 'Centre of Excellence',
 height: '6-6',
 weight: '200',
 salary: '0',
 wA: .5,
-img: 'https://www.nbadraft.net/wp-content/uploads/2021/07/Dyson-Daniels.png'
+img: 'https://www.nbadraft.net/wp-content/uploads/2021/07/Dyson-Daniels.png',
+blurb: "Lonzo Ball is someone that immediately comes to mind when analyzing Daniels’ game. Both possess excellent height and wingspan for a guard and have elite defensive instincts and passing abilities. - Nick Scolaro"
 };
 var KendallBrown = {
 name: 'Kendall Brown',
@@ -238,7 +245,8 @@ height: '6-8',
 weight: '205',
 salary: '0',
 wA: 0,
-img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4433254.png&w=350&h=254'
+img: 'https://a.espncdn.com/combiner/i?img=/i/headshots/mens-college-basketball/players/full/4433254.png&w=350&h=254',
+blurb: "Though Brown is unpolished and struggles to make plays on offense, his physical gifts should make him a first-round pick in this year’s draft. Ultimately, he has the potential to be an uber-impactful role player on both ends of the floor. - Jesse Cinquini"
 };
 var NikolaJovic = {
 name: 'Nikola Jovic',
@@ -1099,7 +1107,7 @@ wA: 0,
 img: 'data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs='
 };
 
-var draftPlayers = [ JabariSmith, ChetHolmgren, PaoloBanchero, JadenIvey, DysonDaniels, JeremySochan, KeeganMurray, AjGriffin, BennedictMathurin, ShaedonSharpe, TytyWashington, OusmaneDieng, JohnnyDavis, OchaiAgbaji, TariEason, MalakiBranham, JalenDuren, JalenWilliams, PatrickBaldwin, KendallBrown, EjLiddell, MarkWilliams, CalebHoustan, NikolaJovic, WendellMoore,  JaylinWilliams, JeanMontero, JoshMinott,  JadenHardy,  TrevorKeels, ChristianKoloko, BlakeWesley, JordanHall, MaxChristie, KennedyChandler, WalkerKessler, MarjonBeauchamp, OrlandoRobinson,  IsmaelKamagate, BryceMcgowens, LeonardMiller, TrayceJackson, IversonMolinar,  RyanRollins, JamareeBouyea, JabariWalker, JdDavison, HarrisonIngram, IbouDianko, HugoBesson, ChristianBraun, JulianStrawther,  JohnnyJuzang, YannickNzosa, RonHarper, MatteoSpagnolo, IzaiahBrockington, MichaelFoster, AminuMohammed, JulianChampagnie, TrevionWilliams, DereonSeabron, KrisMurray, GrantSherfield, PeytonWatson, BradyManek, KeonEllis, KameronMcgusty, JaredRhoden, JakeLaravia, JohnButler, JdNotae, DonovanWilliams, KellanGrady, GuiSantos, AlondesWilliams, BrysonWilliams, MalcolmCazalon, DrewTimme, JustynMutts, KeveAluma, GabeBrown, JustinLewis, MichaelDevoe, MatthewMayer, ZigaSamar, GabrieleProcida, TaevionKinsey, QuentonJackson, TylerBurton, ScottyPippen, JalenWilson, LukeTravers, TyreseMartin, KeionBrooks, BaylorScheierman, EmmanuelAkot, KarloMatkovic, MaxAbmas, MatthewStrazel, ]
+var draftPlayers = [ JabariSmith, ChetHolmgren, PaoloBanchero, JadenIvey, DysonDaniels, JeremySochan, KeeganMurray, AjGriffin, BennedictMathurin, ShaedonSharpe, TytyWashington, OusmaneDieng, JohnnyDavis, OchaiAgbaji, TariEason, MalakiBranham, JalenDuren, JalenWilliams, PatrickBaldwin, KendallBrown, EjLiddell, MarkWilliams, CalebHoustan, NikolaJovic, WendellMoore,  JaylinWilliams, JeanMontero, JoshMinott,  JadenHardy,  TrevorKeels, ChristianKoloko, BlakeWesley, JordanHall, MaxChristie, KennedyChandler, WalkerKessler, MarjonBeauchamp, OrlandoRobinson,  IsmaelKamagate, BryceMcgowens, LeonardMiller, TrayceJackson, IversonMolinar,  RyanRollins, JamareeBouyea, JabariWalker, JdDavison, HarrisonIngram, IbouDianko, HugoBesson, ChristianBraun, JulianStrawther,  JohnnyJuzang, YannickNzosa, RonHarper, MatteoSpagnolo, IzaiahBrockington, MichaelFoster, AminuMohammed, JulianChampagnie, TrevionWilliams, DereonSeabron, GrantSherfield, PeytonWatson, BradyManek, KeonEllis, KameronMcgusty, JaredRhoden, JakeLaravia, JohnButler, JdNotae, DonovanWilliams, KellanGrady, GuiSantos, AlondesWilliams, BrysonWilliams, MalcolmCazalon, DrewTimme, JustynMutts, KeveAluma, GabeBrown, JustinLewis, MichaelDevoe, MatthewMayer, ZigaSamar, GabrieleProcida, TaevionKinsey, QuentonJackson, TylerBurton, ScottyPippen, JalenWilson, LukeTravers, TyreseMartin, KeionBrooks, BaylorScheierman, EmmanuelAkot, KarloMatkovic, MaxAbmas, MatthewStrazel, ]
 
 
 var rookieScale = [9089300, 8132400, 7303100, 6584400, 5962600, 5415500, 4943700, 4529100, 4163100, 3955000, 3757200, 3569500, 3390900,3221600, 3060100, 2907300, 2761800, 2623900, 2505700, 2405400, 2309100, 2216900, 2128300, 2043200, 1961300, 1896400, 1841600, 1830200, 1817100, 1803800]

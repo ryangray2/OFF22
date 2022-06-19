@@ -300,22 +300,49 @@ function generateDraftBoard() {
     secondRow.appendChild(imgCol);
     secondRow.appendChild(buttonCol);
 
+    // if (draftPlayers[i].blurb) {
+      var blurbCol = document.createElement("div");
+      blurbCol.classList.add("col-12");
+
+      var p = document.createElement("p");
+      if (draftPlayers[i].hasOwnProperty("blurb")) {
+        p.innerHTML = draftPlayers[i].blurb;
+      } else {
+        p.innerHTML = "";
+      }
+      p.classList.add("blurb");
+      p.style.opacity = "0";
+      p.style.display = "none";
+      p.setAttribute("id", "play" + i + "p");
+
+      blurbCol.appendChild(p);
+      secondRow.appendChild(blurbCol);
+
+
     row.addEventListener('click', function() {
-      if (document.getElementById("play" + i + "nice").style.height === "15vh") {
+      if (document.getElementById("play" + i + "nice").style.height === "15vh" || document.getElementById("play" + i + "nice").style.height === "37vh") {
         document.getElementById("play" + i + "nice").style.height = "1px";
         document.getElementById("play" + i + "but").style.opacity = "0";
         document.getElementById("play" + i + "img").style.opacity = "0";
+        document.getElementById("play" + i + "p").style.opacity = "0";
         setTimeout(function() {
           document.getElementById("play" + i + "but").style.display = "none";
           document.getElementById("play" + i + "img").style.display = "none";
+          document.getElementById("play" + i + "p").style.display = "none";
         }, 250)
       } else {
-        document.getElementById("play" + i + "nice").style.height = "15vh";
+        if (draftPlayers[i].hasOwnProperty("blurb")) {
+          document.getElementById("play" + i + "nice").style.height = "37vh";
+        } else {
+          document.getElementById("play" + i + "nice").style.height = "15vh";
+        }
         document.getElementById("play" + i + "but").style.display = "inline";
         document.getElementById("play" + i + "img").style.display = "inline";
+        document.getElementById("play" + i + "p").style.display = "inline";
 
           document.getElementById("play" + i + "but").style.opacity = "1";
           document.getElementById("play" + i + "img").style.opacity = "1";
+          document.getElementById("play" + i + "p").style.opacity = "1";
 
       }
 
