@@ -158,8 +158,29 @@ var grizzliesOffer = {
   givePlayer: [juliusRandle]
 }
 
+var kyrieIrving = {
+name: 'Kyrie Irving',
+pos: 'PG',
+age: '30.1',
+sal: 45000000,
+guaranteed: true,
+wA: 7.4,
+img: ''
+};
 
-var knicksTrades = [mylesOffer, donovanOffer, rudyOffer, westbrookOffer, rozierOffer, grizzliesOffer];
+var kyrieOffer = {
+  otherTeam: "Nets",
+  receiveText: ["Kyrie Irving"],
+  giveText: ["Evan Fournier", "Alec Burks", "Nerlens Noel", "Kemba Walker", "2023 Round 1"],
+  pickText: ["2023 Round 1"],
+  receiveIndex: [],
+  giveIndex: [],
+  receivePlayer: [kyrieIrving],
+  givePlayer: [evanFournier, alecBurks, nerlensNoel, kembaWalker]
+}
+
+
+var knicksTrades = [mylesOffer, donovanOffer, rudyOffer, westbrookOffer, rozierOffer, grizzliesOffer, kyrieOffer];
 
 
 

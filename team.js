@@ -19,7 +19,7 @@ var bkn = {
   city: "Brooklyn",
   name: "Nets",
   init: "BKN",
-  logo: "https://www.nba.com/.element/img/1.0/teamsites/logos/teamlogos_500x500/bkn.png"
+  logo: "nets1.png"
 }
 
 var cha = {
