@@ -58,10 +58,10 @@ name: 'Gary Harris',
 pos: 'SG',
 type: 'UFA',
 age: '27.6',
-sal: 0,
-years: 0,
-odds: 0,
-wA: 0,
+sal: 2,
+years: 9000000,
+odds: 40,
+wA: 2.2,
 img: ''
 };
 var ZachLaVine = {
