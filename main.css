@@ -6,6 +6,9 @@ body {
 background: radial-gradient(circle, rgba(226,228,243,1) 20%, rgba(226,228,243,1) 61%, rgba(176,178,207,1) 100%); */
     background: linear-gradient(344deg, rgba(123,166,219,1) 10%, rgba(21,76,119,1) 76%);
   transition: background 1s;
+  position: fixed;
+      overflow: hidden;
+      width: 100%;
 }
 
 html,
@@ -133,7 +136,7 @@ overflow: scroll;
 
 #rosterNavCont {
   overflow: scroll;
-      height: 70vh;
+      height: 65vh;
 }
 
 #faNavCont {
@@ -247,6 +250,7 @@ margin-bottom: 0px;
 
 .rosterCut {
   color:  #d23434;
+  padding-top: 0px;
 }
 
 .rosterPos {
