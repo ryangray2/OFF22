@@ -266,7 +266,7 @@ var sixOffer = {
   pickText: ["Pick #11", "2023 Round 1 (DAL)", "2024 Round 1"],
   receiveIndex: [5],
   giveIndex: [10],
-  receivePlayer: [kellyOlynyk],
+  receivePlayer: [malcolmBrogdon],
   givePlayer: [alecBurks, nerlensNoel, immanuelQuickley]
 }
 
