@@ -138,6 +138,7 @@ overflow: scroll;
 #tradeNavCont {
   overflow: scroll;
       height: 70vh;
+      padding-bottom: 150px;
 }
 
 #rosterNavCont {
